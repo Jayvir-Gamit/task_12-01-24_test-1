@@ -2,7 +2,7 @@
 function openloginbar() {
     document.querySelector('.sidebar').style.transition = "transform 1s, width 1s, height 1s";
     document.querySelector('.sidebar').style.transform = "scale(1)";
-    document.querySelector('.sidebar').style.width = "300px";
+    document.querySelector('.sidebar').style.width = "320px";
     document.querySelector('.sidebar').style.height = "100vh";
 }
 function hideloginbar() {
