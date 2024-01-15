@@ -10,6 +10,7 @@ function hideloginbar() {
     document.querySelector('.sidebar').style.transform = "scale(0)";
     document.querySelector('.sidebar').style.width = "0px";
     document.querySelector('.sidebar').style.height = "0px";
+	document.querySelector('.demo').innerHTML = "";
 }
 function loginsubmit() {
     console.log("clicked")
